@@ -28,6 +28,9 @@ function unos(){
     }
     $email = $_POST['email'];
     $adresa = $_POST['adresa'];
+    var_dump($narudzba);
+    echo 'EMAIL = '.$email.'<br>';
+    echo 'ADRESA = '.$adresa.'<br>';
 }
 
 function narudzba(){
